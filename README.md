@@ -26,7 +26,7 @@ Before you begin, ensure you have the following installed:
    Open your terminal (or Command Prompt) and run the following command to clone the repository:
    
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/SaimoomNbs/apex.git
    ```
 
    Replace `your-username/your-repository-name` with the actual URL of the GitHub repository.
@@ -36,7 +36,7 @@ Before you begin, ensure you have the following installed:
    Change into the project directory:
    
    ```bash
-   cd your-repository-name
+   cd apex
    ```
 
 3. **Install Dependencies**
@@ -97,21 +97,15 @@ Before you begin, ensure you have the following installed:
 
    The server will start at `http://localhost:8000`. Open this URL in your browser to access the project.
 
----
+8. **Load image file**
 
-### **Additional Commands**
+   If image not loading then run this in Laravel development server:
+   
+   ```bash
+   php artisan storage:link
+   ```
 
-- **Run Unit Tests:**
-  If the project has tests, you can run them using:
-  ```bash
-  php artisan test
-  ```
-
-- **Clear Cache:**
-  To clear the Laravel cache, use:
-  ```bash
-  php artisan cache:clear
-  ```
+   The server will start at `http://localhost:8000`. Open this URL in your browser to access the project.
 
 ---
 
@@ -120,4 +114,13 @@ Before you begin, ensure you have the following installed:
 - Ensure your `.env` file is configured correctly for your environment.
 - If you face permission issues, check file/folder permissions, especially on shared servers.
 
+---
+
+### **Instructions**
+
+- **Home Page**: All available products are displayed on the home page. Users can add products to their cart directly from this page.
+  
+- **Create Product**: To add a product for the first time, navigate to the "Create Product" page where you can input product details and submit it for display.
+
+- **Manage Cart**: Users can view and manage their cart by visiting the "Cart" page. To remove an item from the cart, simply click the "Remove" button next to the product in the cart.
 ---
