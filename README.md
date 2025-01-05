@@ -29,8 +29,6 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/SaimoomNbs/apex.git
    ```
 
-   Replace `your-username/your-repository-name` with the actual URL of the GitHub repository.
-
 2. **Navigate to the Project Folder**
 
    Change into the project directory:
@@ -123,4 +121,3 @@ Before you begin, ensure you have the following installed:
 - **Create Product**: To add a product for the first time, navigate to the "Create Product" page where you can input product details and submit it for display.
 
 - **Manage Cart**: Users can view and manage their cart by visiting the "Cart" page. To remove an item from the cart, simply click the "Remove" button next to the product in the cart.
----
